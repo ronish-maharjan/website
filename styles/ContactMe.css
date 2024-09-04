@@ -1,0 +1,19 @@
+html{
+    font-family: "source code pro", monospace, sans-serif;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5em;
+    min-height:90vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact__mail-link{
+    font-size: var(--fs-base);
+}
+.contact__fb-link{
+    font-size: var(--fs-base);
+}

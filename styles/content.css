@@ -1,0 +1,23 @@
+.content{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content__heading{
+    font-family: "source code pro",monospace,sans-serif;
+    font-weight: 500;
+    font-size: var(--fs-xl);
+    border-bottom: 2px solid var(--clr-gray300);
+}
+.content__link{
+    display: block;
+    border-bottom: 2px solid var(--clr-gray200);
+
+}
+.content :nth-child(odd) {
+    background-color: var(--clr-gray100);
+}
+
+.content__link:hover{
+    background-color: var(--clr-gray300);
+}

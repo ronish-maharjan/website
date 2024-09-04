@@ -1,0 +1,23 @@
+html{
+    font-family:monospace;
+}
+
+.image__heading{
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+/*  image container */
+.photo__container{
+    padding-inline:1em;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    align-items: center;
+
+}
+.image{
+    width: 500px;
+}

@@ -1,0 +1,20 @@
+html{
+    font-family: "source code pro", monospace;
+}
+.profile__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    gap:1em;
+    text-align: center;
+}
+.profile__image{
+    width: 200px;
+    
+    
+
+}
+.portfolio__link{
+    font-size: var(--fs-base);
+}
