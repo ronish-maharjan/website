@@ -12,6 +12,7 @@
 .content__link{
     display: block;
     border-bottom: 2px solid var(--clr-gray200);
+    font-size: var(--fs-lg);
 
 }
 .content :nth-child(odd) {

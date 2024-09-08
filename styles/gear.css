@@ -1,5 +1,11 @@
 .article__container{
     padding:1em;
+    display: flex;
+    min-height:98vh;
+    flex-direction: column;
+}
+main{
+    flex:1;
 }
 header{
     margin-bottom: 1em;

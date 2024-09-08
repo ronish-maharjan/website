@@ -12,9 +12,11 @@ html{
 .profile__image{
     width: 200px;
     
-    
 
 }
 .portfolio__link{
     font-size: var(--fs-base);
+}
+.portfolio__link:hover{
+    text-decoration: underline;
 }

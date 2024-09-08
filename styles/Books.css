@@ -1,0 +1,43 @@
+body{
+    font-family: 'source code pro', monospace;
+}
+header{
+    padding-inline:1em;
+    text-align: center;
+    
+}
+.book__container{
+    padding:1em;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6em;
+    justify-content: center;
+}
+.book{
+    padding:0.7em;
+    border: 2px solid var(--clr-gray500);
+    width:170px
+
+}
+.book:hover{
+    box-shadow: 7px 7px 8px 4px  var(--clr-gray300);
+}
+.book img{
+    margin-bottom: 0.5em;
+}
+.button a{
+    font-size: var(--fs-base);
+    font-weight: bold;
+
+}
+.button a:hover{
+    text-decoration: underline;
+}
+
+.book img{
+    display: block;
+    
+    width:150px;
+}
