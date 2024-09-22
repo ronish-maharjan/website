@@ -4,7 +4,7 @@ function updateNepalTime() {
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
-    hour12: true, // AM/PM format
+    hour12: false, // 24-hour format
   };
   const now = new Date().toLocaleTimeString("en-US", options);
   document.getElementById(

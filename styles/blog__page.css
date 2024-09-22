@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5{
+    margin-top: 2rem;
+}
+.article__container{
+    padding-inline:1em;
+    display: flex;
+    min-height:98vh;
+    flex-direction: column;
+    max-width: calc(120ch);
+}
+main{
+    flex:1;
+}
+ul{
+    
+    margin-left:1.4em;
+}
+
