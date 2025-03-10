@@ -1,5 +1,6 @@
 h1,h2,h3,h4,h5{
     margin-top: 2rem;
+    font-family:"inter";
 }
 .article__container{
     padding-inline:1em;
@@ -7,6 +8,9 @@ h1,h2,h3,h4,h5{
     min-height:98vh;
     flex-direction: column;
     max-width: calc(120ch);
+}
+p{
+    font-family:"space grotesk";
 }
 main{
     flex:1;
