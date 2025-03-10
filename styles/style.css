@@ -42,7 +42,8 @@ img, svg{
 a{
 
     text-decoration: none;
-
+    font-family:"inter";
+    font-weight:500;
 }   
 .back{
     display: flex;
