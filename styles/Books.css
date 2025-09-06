@@ -22,11 +22,6 @@ body{
 .book:hover{
     box-shadow: 7px 7px 8px 4px  var(--clr-gray300);
 }
-.book img{
-    margin-bottom: 0.5em;
-    transition:filter 0.2s ease-out;
-}
-
 .book > .book__status{
     margin-bottom:0.5em;
 }
@@ -39,8 +34,7 @@ body{
     text-decoration: underline;
 }
 
-.book img{
-    display: block;
-    
+.book img, .book__notfound{
+    margin-bottom: 0.5em;
     width:100%;
 }
