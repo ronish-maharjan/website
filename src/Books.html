@@ -1,50 +1,82 @@
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-    rel="stylesheet" />
-
-
-  <link rel="stylesheet" href="../styles/style.css" />
-  <link rel="stylesheet" href="../styles/Books.css" />
-  <title>Blogs</title>
-</head>
-
-<body>
-  <a href="../index.html" class="back"><svg class="back__icon" xmlns="http://www.w3.org/2000/svg" fill="none"
-      viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
-    </svg>
-    Back</a>
-  <header>
-    <h1>Books I Love To Read</h1>
-  </header>
-  <div class="book__container ">
-    <div class="books">
-      <div class="book">
-        <img src="./../img/atomichabit.jpg" alt="atomic habbit">
-        <div class="button">
-          <a href="https://the-book-lovers.fandom.com/wiki/Atomic_Habits" target="_blank">Learn More</a>
-        </div>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../styles/style.css" />
+      <link rel="stylesheet" href="../styles/Books.css" />
+      <title>Blogs</title>
+   </head>
+   <body>
+      <header>
+         <a href="../index.html" class="back">
+            <svg class="back__icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
+            </svg>
+            Back
+         </a>
+      </header>
+      <div class="book__container ">
+         <h1>Books I Love To Read</h1>
+         <div class="book__self">
+            <div class="book">
+               <img src="./../img/atomichabit.jpg" alt="atomic habbit">
+               <div class = "book__status">
+                  <p>Status: Completed</p>
+               </div>
+               <div class="button">
+                  <a href="https://the-book-lovers.fandom.com/wiki/Atomic_Habits" target="_blank">Learn More</a>
+               </div>
+            </div>
+            <div class="book">
+               <img src="./../img/deepwork.jpg" alt="atomic habbit">
+               <div class = "book__status">
+                  <p>Status: Completed</p>
+               </div>
+               <div class="button">
+                  <a href="https://books.google.com.np/books/about/Deep_Work.html?id=lZpFCgAAQBAJ&source=kp_book_description&redir_esc=y"
+                     target="_blank">Learn
+                  More</a>
+               </div>
+            </div>
+            <div class="book">
+               <img src="./../img/fortuneFalls.webp" alt="Fortune Falls">
+               <div class = "book__status">
+                  <p>Status: Ongoing</p>
+               </div>
+               <div class="button">
+                  <a href="https://www.louvane.com/"
+                     target="_blank">Learn
+                  More</a>
+               </div>
+            </div>
+         </div>
+         <!-- Planning to read section --->
+         <section class ="planning" >
+            <h2>Books Planning To Read</h2>
+            <div class = "book__self">
+               <div class="book">
+                  <img src="" alt="Book Not Found Yet">
+                  <div class="button">
+                     <a href="#" target="_blank">Learn More</a>
+                  </div>
+               </div>
+            </div>
+         </section>
       </div>
-      <div class="book">
-        <img src="./../img/deepwork.jpg" alt="atomic habbit">
-        <div class="button">
-          <a href="https://books.google.com.np/books/about/Deep_Work.html?id=lZpFCgAAQBAJ&source=kp_book_description&redir_esc=y"
-            target="_blank">Learn
-            More</a>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-  <!-- <div class="info">
-      <p>Coming Soon.....</p>
-    </div> -->
-</body>
-
+      <!-- <div class="info">
+         <p>Coming Soon.....</p>
+         </div> -->
+      <a class = "floating-back" href="javascript:history.back()">
+         <svg class="back__icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
+         </svg>
+      </a>
+      <script src = "../scripts/back.js"></script>
+   </body>
 </html>

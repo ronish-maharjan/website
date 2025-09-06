@@ -1,24 +1,22 @@
 body{
     font-family: 'source code pro', monospace;
 }
-header{
-    padding-inline:1em;
-    text-align: center;
-    
-}
-.book__container{
+.book__container > h1,h2{
     padding:1em;
+    text-align:center;
 }
-.books{
-    display: flex;
-    flex-wrap: wrap;
+.book__self{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,max-content));
     gap: 1.6em;
-    justify-content: center;
+    justify-content:center;
+    margin-bottom:2em;
 }
 .book{
     padding:0.7em;
     border: 2px solid var(--clr-gray500);
-    width:170px
+    width:200px;
+    transition:all 0.3s ease-out
 
 }
 .book:hover{
@@ -26,6 +24,11 @@ header{
 }
 .book img{
     margin-bottom: 0.5em;
+    transition:filter 0.2s ease-out;
+}
+
+.book > .book__status{
+    margin-bottom:0.5em;
 }
 .button a{
     font-size: var(--fs-base);
@@ -39,5 +42,5 @@ header{
 .book img{
     display: block;
     
-    width:150px;
+    width:100%;
 }

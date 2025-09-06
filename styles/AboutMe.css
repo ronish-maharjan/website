@@ -1,22 +1,35 @@
-html{
-    font-family: "source code pro", monospace;
-}
 .profile__container{
+    min-height:90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:center;
     margin-top: 2em;
     gap:1em;
     text-align: center;
 }
-.profile__image{
-    width: 200px;
-    
-
+.link__section{
+    display:flex;
+    flex-direction:column;
+    gap:0.2em;
 }
-.portfolio__link{
+.profile__link{
+    position:relative;
+}
+.profile__link > .portfolio__link{
     font-size: var(--fs-base);
+}
+.portfolio__link >span{
+    position:absolute;
+    top:3px;
+    font-weight:bold;
+    font-size:0.7rem;
+    transition:top 0.1s ease-out;
+
 }
 .portfolio__link:hover{
     text-decoration: underline;
+}
+.portfolio__link:hover > span{
+    top:0px;
 }

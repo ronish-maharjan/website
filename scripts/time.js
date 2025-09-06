@@ -14,3 +14,4 @@ function updateNepalTime() {
 
 updateNepalTime(); // Initial call to set the time immediately
 setInterval(updateNepalTime, 1000); // Update the time every second
+

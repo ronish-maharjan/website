@@ -8,6 +8,10 @@ html{
     
     font-family:"space grotesk";
 }
+
+h1,h2,h3,h4{
+    font-family:"inter";
+}
 img, svg{
     display: inline-block;
     max-width: 100%;
@@ -37,23 +41,21 @@ img, svg{
 .container{
     max-width: 700px;
     margin-inline:auto;
+    padding-inline:1em;
    
 }
 a{
-
     text-decoration: none;
     font-family:"inter";
     font-weight:500;
 }   
 .back{
     display: flex;
-    font-family:monospace;
-    font-size: var(--fs-m);
+    font-family:"space grotesk";
+    font-size: var(--fs-base);
     color:var(--clr-dark);
     border-bottom: 2px solid var(--clr-gray300);
     background-color:var(--clr-gray100);
-    position: sticky;
-    top:0;
     z-index: 1;
     
 }
@@ -82,3 +84,30 @@ a{
     justify-content: center;
     font-weight: 600;
 }
+
+
+footer{
+    margin-top:1em;
+}
+
+.floating-back {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 80%;
+    right:4%;
+    border: 2px solid gray;
+    border-radius: 50%; /* 100% works too */
+    display: flex;             /* allows centering content */
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;     /* remove underline */
+    background-color:transparent; /* optional, makes it visible */
+    color: black;              /* link text color */
+    font-size: 12px;
+    text-align: center;
+    z-index:1;
+}
+.show{
+    display:none;
+ }
