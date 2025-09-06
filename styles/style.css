@@ -96,17 +96,20 @@ footer{
     position: fixed;
     top: 80%;
     right:4%;
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 50%; /* 100% works too */
     display: flex;             /* allows centering content */
     align-items: center;
     justify-content: center;
-    text-decoration: none;     /* remove underline */
-    background-color:transparent; /* optional, makes it visible */
+    background-color:rgba(128, 128, 128, 0.8);
+    opacity:0.7;
     color: black;              /* link text color */
     font-size: 12px;
     text-align: center;
     z-index:1;
+}
+.floating-back:hover{
+    background-color:rgba(128, 128, 128, 1);
 }
 .show{
     display:none;
