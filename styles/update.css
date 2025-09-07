@@ -1,4 +1,8 @@
+.update{
+    flex:1;
+}
 .update h3{
+
     padding-left: 0.3em;
 }
 .update ul{

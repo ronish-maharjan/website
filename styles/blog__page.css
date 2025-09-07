@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5{
 .article__container{
     padding-inline:1em;
     display: flex;
-    min-height:98vh;
+    min-height:96vh;
     flex-direction: column;
     max-width: calc(120ch);
 }

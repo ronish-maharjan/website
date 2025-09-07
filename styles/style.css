@@ -39,9 +39,12 @@ img, svg{
 
 }
 .container{
+    display:flex;
+    flex-direction:column;
     max-width: 700px;
     margin-inline:auto;
     padding-inline:1em;
+    min-height:100vh;
    
 }
 a{
@@ -86,9 +89,6 @@ a{
 }
 
 
-footer{
-    margin-top:1em;
-}
 
 .floating-back {
     width: 50px;
@@ -114,3 +114,7 @@ footer{
 .show{
     display:none;
  }
+
+ footer{
+ margin-top:1em;
+}
