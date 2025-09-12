@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="./styles/style.css" />
       <link rel="stylesheet" href="./styles/time.css" />
       <link rel="stylesheet" href="./styles/update.css">
+      <link rel="stylesheet" href="./styles/widget.css">
       <title>RonishMaharjan</title>
    </head>
    <body>
@@ -25,6 +26,8 @@
             <a href="./src/Books.html" class="content__link">Books</a>
          </div>
          <div class="time" id="nepalTime">Loading time...</div>
+
+         <!--Update Section-->
          <div class="update">
             <h3>What's new</h3>
             <ul>
@@ -41,10 +44,22 @@
             </br>
             <p>Last Updated: 06-Sep-2025 </p>
          </div>
+
+        <!-- For the widget of countdown--->         
+        <div class="widget" id="widget">
+          <div class="grid" id="grid"></div>
+          <div class="widget__footer">
+            <b id="eventName"></b>
+            <span id="daysLeft"></span>
+          </div>
+        </div>
+
+        <!--Footer section-->
          <footer>
             <p>&copy; 2025  Ronish_Maharjan</p>
          </footer>
       </div>
       <script src="./scripts/time.js"></script>
+      <script src="./scripts/countdown.js"></script>
    </body>
 </html>
