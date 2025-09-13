@@ -8,7 +8,11 @@ const END_DATE   = new Date(2026, 8, 32);           // Event end date
 // =============================
 // CALCULATIONS
 // =============================
-const NOW = new Date();                             // Current date and time
+// =============================
+// CURRENT DATE IN NEPAL
+// =============================
+const NOW_UTC = new Date();   // Current UTC date/time
+const NOW = new Date(NOW_UTC.getTime() + (5*60 + 45) * 60000); // add 5h 45m offset
 const MS_PER_DAY = 86400000;                        // Milliseconds in one day
 
 // Total number of days between start and end (inclusive)
